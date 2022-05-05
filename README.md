@@ -1,10 +1,10 @@
-# <!-- Project Name -->
+# Generative Art
 
-## GDD-140 <!-- Assignment Name -->
+## GDD-140 Final
 
-<!-- Badges Here -->
+[![Build Pages](https://github.com/LittleTealeaf/GDD-140-Final/actions/workflows/github-pages.yml/badge.svg)](https://github.com/LittleTealeaf/GDD-140-Final/actions/workflows/github-pages.yml)
 
-[**View Project**]()
+[**View Project**](https://littletealeaf.github.io/GDD-140-Final/)
 
 This is a deployment from a p5.js project created in the online editor. All credits for the p5.js enviornment used goes to [processing/p5.js](https://github.com/processing/p5.js), and the use of the [p5.js Editor](https://editor.p5js.org/).
 
@@ -12,7 +12,7 @@ This project was created as an assignment for Game Design 140, Creativity and Co
 
 ## Running the Program
 
-If you want to fool aroud and look at / preview the code, feel free to clone this repo. 
+If you want to fool aroud and look at / preview the code, feel free to clone this repo.
 
 This repo does use npm to manage the p5.js package, so you will need to install npm if you don't already have it. Once you do, install the dependencies by typing the following:
 
