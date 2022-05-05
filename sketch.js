@@ -14,7 +14,7 @@ var x = 124;
 var gx = 15;
 
 var z = 0.1;
-var gz = 1;
+var gz = 0.01;
 
 var y = 0;
 var gy = 1;
