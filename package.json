@@ -1,21 +1,18 @@
 {
-  "name": "gdd-140-project",
+  "name": "gdd-140-final",
   "version": "1.0.0",
   "description": "",
   "main": "sketch.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LittleTealeaf/GDD-140-Template.git"
+    "url": "git+https://github.com/LittleTealeaf/GDD-140-Final.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LittleTealeaf/GDD-140-Template/issues"
+    "url": "https://github.com/LittleTealeaf/GDD-140-Final/issues"
   },
-  "homepage": "https://github.com/LittleTealeaf/GDD-140-Template#readme",
+  "homepage": "https://github.com/LittleTealeaf/GDD-140-Final#readme",
   "dependencies": {
     "@types/p5": "1.4.2",
     "p5": "1.4.1"
