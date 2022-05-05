@@ -39,13 +39,13 @@ function renderShape() {
     for (var i = 0; i < height; i += 90) {
         fill(255 * i / height);
         beginShape();
-        vertex(0,i);
-        for(var j = 0; j < width; j+= resolution) {
-            vertex(j,map(noise(x + z * j, i + y), 0, 1, i - maxHeight, i - minHeight));
+        vertex(0, i);
+        for (var j = 0; j < width; j += resolution) {
+            vertex(j, map(noise(x + z * j, i + y), 0, 1, i - maxHeight, i - minHeight));
         }
-        vertex(width,i);
-        for(var j = width; j >= 0; j -= resolution) {
-            vertex(j,map(noise(x + z * j, i - y), 0, 1, i + minHeight, i + maxHeight));
+        vertex(width, i);
+        for (var j = width; j >= 0; j -= resolution) {
+            vertex(j, map(noise(x + z * j, i - y), 0, 1, i + minHeight, i + maxHeight));
         }
 
         // vertex(0, height);
@@ -60,7 +60,7 @@ function renderShape() {
 function nextImage() {
     gx = random(-100, 100);
     gz = random(0.001, 0.05);
-    gy = random(-100,100);
+    gy = random(-100, 100);
 }
 
 
