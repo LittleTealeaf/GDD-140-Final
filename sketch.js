@@ -7,47 +7,12 @@
  */
 
 
-class Sphere {
-    constructor(radius,rotation) {
-        this.radius = radius;
-        this.rotation = rotation;
-        this.children = [];
-    }
-
-    draw() {
-        push();
-        translate(this.radius,0);
-        ellipseMode(CENTER);
-        ellipse(0,0,this.radius);
-        this.children.forEach((item) => {
-            push();
-            rotate(item.rotation);
-            translate(this.radius);
-            item.draw();
-            pop();
-        });
-        pop();
-    }
-}
-
-let center;
 
 function setup() {
-    createCanvas(windowWidth - 20,windowHeight - 20);
-    center = new Sphere(100,0);
-    var item = center;
-    for(var i = 0; i < 100/5; i++) {
-        const j = new Sphere(100 - i * 5,PI / 4);
-        item.children.push(j);
-        item = j;
-    }
+    createCanvas(windowWidth - 20, windowHeight - 20);
 }
 
 function draw() {
-    background(200);
-    push();
-    translate(width/2,height/2);
-    center.draw();
-    pop();
-
+    background(255);
+    
 }
