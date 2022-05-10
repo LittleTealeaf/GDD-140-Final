@@ -36,8 +36,8 @@ function setup() {
     createCanvas(windowWidth - 20,windowHeight - 20);
     center = new Sphere(100,0);
     var item = center;
-    for(var i = 0; i < 95/5; i++) {
-        const j = new Sphere(100 - i * 5,PI / 5);
+    for(var i = 0; i < 100/5; i++) {
+        const j = new Sphere(100 - i * 5,PI / 4);
         item.children.push(j);
         item = j;
     }
