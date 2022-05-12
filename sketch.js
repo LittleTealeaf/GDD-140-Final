@@ -28,8 +28,6 @@ class Sphere {
         for(var i = 0; i < max && random(baseRadius) < radius; i++) {
             //Adds a child
             this.children.push(new Sphere(radius * ratio / (ratio + 1)));
-
-
         }
     }
 
@@ -68,6 +66,7 @@ class Sphere {
         fill(255 * this.radius / baseRadius);
         ellipse(0,0,this.radius);
         this.children.forEach((item) => {
+            //Rotate at the item's rotation, translate to the edge of this circle, and then run the child's draw method
             push();
             rotate(item.rotation);
             translate(this.radius/2,0);
