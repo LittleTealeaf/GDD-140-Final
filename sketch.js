@@ -10,7 +10,7 @@
 
 const baseRadius = 300;
 
-const ratio = 4.5;
+const ratio = 3.5;
 
 class Sphere {
     constructor(radius) {
@@ -28,6 +28,8 @@ class Sphere {
         for(var i = 0; i < max && random(baseRadius) < radius; i++) {
             //Adds a child
             this.children.push(new Sphere(radius * ratio / (ratio + 1)));
+
+
         }
     }
 
