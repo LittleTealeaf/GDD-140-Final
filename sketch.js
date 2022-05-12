@@ -1,8 +1,6 @@
 /// <reference path="./node_modules/@types/p5/global.d.ts" />
 
 
-
-
 /*
  * Idea: https://littletealeaf.github.io/GDD-140-Project-2.2/ but with ellipses and rotating stuff
  * ooh! nested object orientation
@@ -102,7 +100,7 @@ async function draw() {
     center.update();
 
     //draw
-    background(200);
+    background(255);
 
     push();
     translate(width/2 - center.radius/2,height/2);
