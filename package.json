@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/LittleTealeaf/GDD-140-Final#readme",
   "dependencies": {
-    "@types/p5": "1.6.0",
+    "@types/p5": "1.6.1",
     "p5": "1.6.0"
   }
 }
